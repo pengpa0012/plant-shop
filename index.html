@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Plant Shop</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/Logo.svg" alt="" />
+          <span class="fw-bold fs-5 secondary-text">Plant shop</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end py-3 py-lg-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="#plants"
+                >Our Plants</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-5">
+              <a class="nav-link text-dark fw-bold" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="py-5 position-relative overflow-hidden">
+      <div class="container py-5">
+        <div class="py-5">
+          <div class="py-5 d-flex align-items-center flex-column flex-md-row">
+            <div class="col-lg-6 py-5">
+              <h1 class="fs-1">
+                <span class="display-1 primary-text">Plant</span> Lorem ipsum
+                dolor sit
+              </h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+                sunt, ab voluptatum neque mollitia sed aperiam. Tempora numquam
+                perspiciatis, ipsum a praesentium enim id. In ea omnis quisquam
+                pariatur porro?
+              </p>
+              <a
+                href="#plants"
+                class="text-white text-decoration-none btn px-4 primary-bg-btn me-1"
+                >Order now</a
+              >
+              <a
+                href="#plants"
+                class="text-decoration-none btn px-4 secondary-btn"
+                >Shop plants</a
+              >
+            </div>
+            <img
+              src="./assets/img/front-plant-1.png"
+              alt="plant"
+              class="w-50 front-plant d-none d-lg-block"
+              id="front-plant-1"
+            />
+            <img
+              src="./assets/img/front-plant-2.png"
+              alt="plant"
+              class="w-50 front-plant d-none d-lg-block"
+              id="front-plant-2"
+            />
+            <img
+              src="./assets/img/front-plant-3.png"
+              alt="plant"
+              class="w-50 front-plant d-none d-lg-block"
+              id="front-plant-3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 text-dark bg-light">
+      <div class="container py-5">
+        <h2 class="fs-3 mb-5 text-center pb-5 secondary-text">
+          Benefits of having a plant...
+        </h2>
+        <div class="d-flex flex-column flex-lg-row py-5">
+          <div
+            class="col shadow-sm p-4 secondary-bg border my-5 mb-lg-0 rounded-3 position-relative text-center"
+          >
+            <img src="./assets/img/mood.svg" alt="" class="plant-img" />
+            <h4 class="primary-text pt-5">Boost your mood</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              voluptates dolorum
+            </p>
+          </div>
+          <div
+            class="col shadow-sm p-4 mx-0 mx-lg-5 secondary-bg border my-5 mb-lg-0 rounded-3 position-relative text-center"
+          >
+            <img src="./assets/img/leaf.svg" alt="" class="plant-img" />
+            <h4 class="primary-text pt-5">Help clean your air</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              voluptates dolorum
+            </p>
+          </div>
+          <div
+            class="col shadow-sm p-4 secondary-bg border mt-5 mb-lg-0 rounded-3 position-relative text-center"
+          >
+            <img src="./assets/img/creative.svg" alt="" class="plant-img" />
+            <h4 class="primary-text pt-5">Being creative</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+              voluptates dolorum
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="about">
+      <div class="container py-5">
+        <h2 class="fs-1 mb-5 secondary-text text-center">About</h2>
+        <div class="d-flex flex-column flex-lg-row py-5">
+          <div class="col mb-5 mb-lg-0 pe-0 pe-md-5">
+            <img
+              src="./assets/img/about.jpg"
+              alt="plant"
+              class="w-100 c-max-height"
+            />
+          </div>
+          <div class="col">
+            <h3 class="fs-3 mb-3 secondary-text">Our Store</h3>
+            <p class="fs-5 mb-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              alias magnam voluptates eveniet deserunt dolore, explicabo quis
+              nesciunt consequuntur corrupti.
+            </p>
+            <p class="fs-5">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              alias magnam
+            </p>
+            <div class="my-5 my-md-3">
+              <h5 class="fs-5 secondary-text mb-3">List of available plants</h5>
+              <ul class="-5 d-flex flex-column flex-md-row align-items-start">
+                <div class="row">
+                  <li class="mb-2">Type of plant</li>
+                  <li class="mb-2">Type of plant</li>
+                  <li class="mb-2">Type of plant</li>
+                  <li class="mb-2">Type of plant</li>
+                </div>
+                <div class="row">
+                  <li class="mb-2">Type of plant</li>
+                  <li class="mb-2">Type of plant</li>
+                  <li>Type of plant</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="mb-5 secondary-text text-center">
+          Take a good care of your plant...
+        </h2>
+        <div class="d-flex flex-column flex-lg-row">
+          <div class="col plant-bg">
+            <img src="./assets/img/plant-sunlight.jpg" alt="" />
+          </div>
+          <div class="col primary-bg d-flex flex-column justify-content-center">
+            <h1 class="display-3 mb-3 px-4 pt-5">Having regular sunlight.</h1>
+            <p class="fs-5 px-4 pb-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem porro nesciunt eum reprehenderit consequuntur
+              distinctio modi ex sunt! Autem, facere.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex flex-column-reverse flex-lg-row">
+          <div class="col primary-bg d-flex flex-column justify-content-center">
+            <h1 class="display-3 mb-3 px-4 pt-5">Watering it regularly.</h1>
+            <p class="fs-5 px-4 pb-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem porro nesciunt eum reprehenderit consequuntur
+              distinctio modi ex sunt! Autem, facere.
+            </p>
+          </div>
+          <div class="col plant-bg">
+            <img src="./assets/img/plant-watering.jpg" alt="" />
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row">
+          <div class="col plant-bg">
+            <img src="./assets/img/plant-fertilize.jpg" alt="" />
+          </div>
+          <div class="col primary-bg d-flex flex-column justify-content-center">
+            <h1 class="display-3 px-4 pt-5">Weekly fertilize.</h1>
+            <p class="fs-5 px-4 pb-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem porro nesciunt eum reprehenderit consequuntur
+              distinctio modi ex sunt! Autem, facere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="plants">
+      <div class="container py">
+        <h2 class="fs-1 mb-5 secondary-text text-center">Our Plants</h2>
+        <div class="c-grid py-5">
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-1.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-2.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-3.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-4.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-5.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-6.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-7.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+          <div class="col card px-2 py-4 position-relative overflow-hidden">
+            <div class="card-img text-center plant-img-cover">
+              <img src="./assets/img/plant-1.png" alt="plant" class="w-75" />
+            </div>
+            <div class="card-body plant-content">
+              <h2 class="mb-2 fs-6 fw-bold">
+                <span class="secondary-text">Type of plant :</span> Plant Name
+              </h2>
+              <p class="mb-2 text-justify">
+                <span class="mb-0 secondary-text fw-bold">Description :</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                reiciendis, eos similique laborum repellendus accusantium!
+              </p>
+              <span class="d-block fs-6 secondary-text"
+                ><span class="fw-bold">Price : </span>$13.99</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="contact">
+      <div class="container py-5">
+        <h2 class="fs-1 mb-5 pt-5 secondary-text text-center">
+          Connect with us!
+        </h2>
+        <div class="d-flex flex-column flex-md-row py-5">
+          <div class="col mb-5 mb-md-0">
+            <h3 class="fs-3 mb-4 secondary-text">Follow our social media...</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex cursor-pointer">
+                <img
+                  src="./assets/img/facebook-square.svg"
+                  alt="icon"
+                  class="me-2"
+                />
+                <p class="fw-bold m-0">Facebook</p>
+              </li>
+              <li class="d-flex my-3 cursor-pointer">
+                <img
+                  src="./assets/img/twitter-square.svg"
+                  alt="icon"
+                  class="me-2"
+                />
+                <p class="fw-bold m-0">Twitter</p>
+              </li>
+              <li class="d-flex cursor-pointer">
+                <img
+                  src="./assets/img/instagram-square.svg"
+                  alt="icon"
+                  class="me-2"
+                />
+                <p class="fw-bold m-0">Instagram</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123553.45338829624!2d120.90951927818759!3d14.596487859627391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca03571ec38b%3A0x69d1d5751069c11f!2sManila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1615992261777!5m2!1sen!2sph"
+              class="w-100"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5 bg-dark text-white">
+      <div class="container py-3">
+        <div class="row flex-column flex-lg-row">
+          <div class="col mb-5 mb-lg-0">
+            <h5>PLANT SHOP</h5>
+          </div>
+          <div
+            class="col d-flex flex-column flex-lg-row justify-content-between"
+          >
+            <div class="mb-3 mb-md-0">
+              <h5>Company</h5>
+              <ul class="list-unstyled text-white-50">
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+              </ul>
+            </div>
+            <div class="mb-3">
+              <h5>Plants Collection</h5>
+              <ul class="list-unstyled text-white-50">
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+              </ul>
+            </div>
+            <div class="mb-3 mb-md-0">
+              <h5>Our Stores</h5>
+              <ul class="list-unstyled text-white-50">
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+                <li class="mb-1">Link here</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="text-white-50">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, ut.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --primary: #c7dd62;
+  --secondary: #1e2f4e;
+}
+
+.green-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--primary);
+  z-index: -1;
+}
+
+.nav-link:hover {
+  color: var(--secondary) !important;
+}
+
+.primary-bg {
+  background: var(--primary);
+  color: #fff;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.primary-bg-btn {
+  background: var(--primary);
+  border: solid 3px var(--primary);
+  color: #fff;
+  font-weight: bold;
+}
+
+.primary-bg-btn:hover {
+  background: #94a34e;
+  color: #fff;
+}
+
+.secondary-bg {
+  background: var(--secondary);
+  color: #fff;
+}
+
+.secondary-btn {
+  border: solid 3px var(--secondary);
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.secondary-btn:hover {
+  background: #1a2944;
+  color: #fff;
+}
+
+.c-max-height {
+  max-height: 600px;
+}
+
+.plant-bg img {
+  width: 100%;
+  height: 100%;
+}
+
+.front-plant {
+  position: absolute;
+}
+
+#front-plant-1 {
+  bottom: -10%;
+  left: 70%;
+  z-index: -3;
+}
+
+#front-plant-2 {
+  bottom: 0;
+  left: 48%;
+  z-index: -1;
+}
+
+#front-plant-3 {
+  bottom: -10%;
+  left: 26%;
+  z-index: -2;
+}
+
+.plant-img {
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  background: #fff;
+  border: solid 8px var(--secondary);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.c-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 300px));
+  justify-content: center;
+  gap: 2rem;
+}
+
+.c-grid img {
+  max-height: 220px;
+}
+
+.c-grid .card {
+  transition: 250ms ease-in;
+  min-height: 458px;
+}
+
+.c-grid .card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.c-grid .plant-img-cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c-grid .plant-img-cover img {
+  transform: scale(1.2);
+}
+
+.c-grid .plant-img-cover,
+.c-grid .plant-img-cover img,
+.c-grid .plant-content {
+  transition: 200ms ease-in;
+}
+
+.c-grid .plant-content {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  padding: 20px;
+}
+
+.c-grid .card:hover .plant-img-cover {
+  transform: translate(-50%, -85%);
+}
+
+.c-grid .card:hover .plant-img-cover img {
+  transform: scale(1);
+}
+
+.c-grid .card:hover .plant-content {
+  transform: translate(-50%, -100%);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media (min-width: 1600px) {
+  #front-plant-3 {
+    left: 30%;
+  }
+}
